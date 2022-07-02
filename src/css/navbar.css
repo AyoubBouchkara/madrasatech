@@ -1,0 +1,107 @@
+.container-fluid{
+    padding: 0%;
+}
+.nav-top {
+    background-color: #FFF;
+    width: 100%;
+    display: inline-flex;
+    box-shadow: 0px 0px 5px 0px rgba(144, 141, 141, 0.622);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-top img{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+}
+.search-input {
+    background-color: #f2f2f2;
+    width: 47%;
+    padding: 0%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-input input[type='search']{
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 30px;
+    border: none;
+}
+.search-input input[type='search']:focus {
+    outline: none;
+}
+.nav-top .nav-button{
+    width: 15%;
+    padding-top: 6px;
+    margin-right: 40px;
+}
+.nav-top .nav-button .active {
+    text-decoration: none;
+    margin-right: 14px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: 500;
+    background-color: #385DFF;
+    font-size: 15px;
+}
+.nav-top .nav-button .active:hover {
+    background-color: #1E42DD;
+    color: #FFF;
+}
+.nav-top .nav-button a{
+    text-decoration: none;
+    margin-right: 14px;
+    padding: 4px 12px 4px 14px;
+    font-weight: 500;
+    color: black;
+}
+.nav-top .nav-button a:hover{
+    color: #385DFF;
+}
+
+.nav-side {
+    background-color: #FFF;
+    box-shadow:  0px 0px 5px 0px rgba(144, 141, 141, 0.622);
+    position: fixed;
+    margin-top: 60px;
+    height: 90vh;
+    width: 20%;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.nav-side ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 90%;
+    margin-left: 20px;
+}
+.nav-side ul li a{
+    text-decoration: none;
+    color: rgb(45, 44, 44);
+    display:block;
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 6px;
+}
+.nav-side ul li a.active, .nav-side ul li a.active:hover{
+    background-color: #3556ea;
+    color: #FFF;
+}
+.nav-side ul li:hover{
+    border-radius: 6px;
+    background-color: rgb(239, 237, 237);
+}
+
+/*  */
+
+.content {
+    width: 80%;
+    margin-top: 60px;
+    float: right;
+}
